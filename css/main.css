@@ -105,3 +105,16 @@ body {
         font-size: 0.6px;
     }
 }
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 0.5px;
+    }
+}
+@media screen and (max-width: 500px) {
+    html {
+        font-size: 1px;
+    }
+    .hero__navbar__contacts__item:nth-child(1), .hero__navbar__contacts__item:nth-child(2), .hero__navbar__contacts__item:nth-child(3) {
+        display: none;
+    }
+}
