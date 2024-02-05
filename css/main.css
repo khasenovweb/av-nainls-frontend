@@ -15,6 +15,7 @@ html {
 }
 body {
     font-size: 16rem;
+    background-color: #FBFBFB;
 }
 
 .container {
@@ -27,11 +28,37 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding-top: 28rem;
 }
 
 .hero__navbar {
-    
+    position: relative;
+    padding-top: 28rem;
+}
+.hero__navbar__mobile {
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    border-radius: 0 0 16rem 16rem ;
+    padding-bottom: 35rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    transition: 0.3s;
+    transform: translateY(-100%);
+}
+
+.hero__navbar__mobile__items {
+    padding-top: 75rem;
+    display: flex;
+    flex-direction: column;
+}
+.hero__navbar__mobile__items .hero__navbar__contacts__item {
+    margin-bottom: 20rem;
+}
+.hero__navbar__mobile__items .hero__navbar__contacts__item:nth-child(3) {
+    margin-bottom: 0;
 }
 .hero__navbar .container{
     display: flex;
@@ -41,6 +68,8 @@ body {
 
 .hero__navbar__logo {
     height: 38rem;
+    position: relative;
+    z-index: 2;
 }
 .hero__navbar__logo svg {
     height: 100%;
@@ -58,12 +87,20 @@ body {
 }
 .hero__navbar__contacts__item:nth-child(4) {
     margin-right: 0;
+    position: relative;
+    z-index: 2;
 }
 .hero__navbar__contacts__item__icon {
     margin-right: 10rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 20rem;
+    height: 20rem;
+}
+.hero__navbar__contacts__item__icon svg {
+    width: 100%;
+    height: 100%;
 }
 .hero__navbar__contacts__item__title {
     font-size: 14rem;
@@ -75,14 +112,7 @@ body {
     color: black;
     text-decoration: none;
 }
-.hero__navbar__contacts__item__icon {
-    width: 20rem;
-    height: 20rem;
-}
-.hero__navbar__contacts__item__icon svg {
-    width: 100%;
-    height: 100%;
-}
+
 .hero__navbar__contacts__item__messanger {
     width: 44rem;
     height: 44rem;
@@ -102,11 +132,23 @@ body {
     border: none;
     background: none;
     display: none;
+    position: relative;
+    z-index: 3;
+    cursor: pointer;
 }
 
 .hero__navbar__hamburger svg {
     width: 100%;
     height: 100%;
+}
+.hero__navbar__hamburger svg:nth-child(2) {
+    display: none;
+}
+.hero__navbar__hamburger.active svg:nth-child(1) {
+    display: none;
+}
+.hero__navbar__hamburger.active svg:nth-child(2) {
+    display: block;
 }
 
 .hero__main {
@@ -168,52 +210,27 @@ body {
     height: 765rem;
 }
 
+.sec__title {
+    font-size: 54rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    background: linear-gradient(130.82deg, #7E7E7E 27.77%, #3F3F3F 64.15%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+.sec__desc {
+    text-align: center;
+    font-size: 24rem;
+    color: #7A7A7A;
+    margin-top: 14rem;
+}
+
+.preims {
+    margin-top: 46rem;
+}
 
 
-@media screen and (max-width: 1200px) {
-    html {
-        font-size: 0.8px;
-    }
-}
-@media screen and (max-width: 1000px) {
-    html {
-        font-size: 0.7px;
-    }
-    .hero__navbar__contacts__item {
-        margin-right: 20rem;
-    }
-}
-@media screen and (max-width: 700px) {
-    html {
-        font-size: 0.6px;
-    }
-}
-@media screen and (max-width: 600px) {
-    html {
-        font-size: 0.5px;
-    }
-}
-@media screen and (max-width: 500px) {
-    html {
-        font-size: 1px;
-    }
-    .hero__navbar__contacts__item:nth-child(1), .hero__navbar__contacts__item:nth-child(2), .hero__navbar__contacts__item:nth-child(3) {
-        display: none;
-    }
-    .hero__navbar__contacts__item {
-        margin-right: 10rem;
-    }
-    .hero__navbar__contacts__item__messanger {
-        width: 36rem;
-        height: 36rem;
-    }
-    .hero__navbar__logo {
-        height: 26rem;
-    }
-    .hero__navbar {
-        margin-top: 24rem;
-    }
-    .hero__navbar__hamburger {
-        display: block;
-    }
-}
+
+

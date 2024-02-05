@@ -1,0 +1,100 @@
+@media screen and (max-width: 1200px) {
+    html {
+        font-size: 0.8px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    html {
+        font-size: 0.7px;
+    }
+    .hero__navbar__contacts__item {
+        margin-right: 20rem;
+    }
+}
+@media screen and (max-width: 700px) {
+    html {
+        font-size: 0.6px;
+    }
+}
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 0.5px;
+    }
+}
+@media screen and (max-width: 500px) {
+    html {
+        font-size: 1px;
+    }
+    .hero__navbar__mobile.active {
+        transform: translateY(0);
+    }
+    .hero__navbar__contacts__item:nth-child(1), .hero__navbar__contacts__item:nth-child(2), .hero__navbar__contacts__item:nth-child(3) {
+        display: none;
+    }
+    .hero__navbar__mobile .hero__navbar__contacts__item:nth-child(1), 
+    .hero__navbar__mobile .hero__navbar__contacts__item:nth-child(2), 
+    .hero__navbar__mobile .hero__navbar__contacts__item:nth-child(3) {
+        display: flex;
+    }
+    .hero__navbar__contacts__item {
+        margin-right: 10rem;
+    }
+    .hero__navbar__contacts__item__messanger {
+        width: 36rem;
+        height: 36rem;
+    }
+    .hero__navbar__logo {
+        height: 26rem;
+    }
+    .hero__navbar__hamburger {
+        display: block;
+    }
+    .hero__main__titte {
+        font-size: 34rem;
+    }
+    .hero__main .container {
+        padding-right: 20rem;
+    }
+    .hero__main__img {
+        width: 149rem;
+        height: 256rem;
+    }
+    .sec__title {
+        font-size: 32rem;
+    }
+    .hero__main__desc {
+        font-size: 15rem;
+    }
+    .hero__navbar__contacts__item:nth-child(4) {
+        margin-right: 10rem;
+    }
+    .container {
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+    .hero__navbar {
+        position: relative;
+        padding-top: 20rem;
+    }
+    .hero__main .container {
+        padding-top: 58rem;
+        padding-bottom: 95rem;
+        /* padding-right: 80rem; */
+    }
+    .hero__main__titte {
+        padding-right: 55rem;
+    }
+    .hero__main__desc {
+        margin-top: 10rem;
+        padding-right: 100rem;
+    }
+    .hero__main__btn {
+        margin-top: 28rem;
+    }
+    .hero__main__img {
+        bottom: 150rem;
+    }
+    .sec__desc {
+        font-size: 15rem;
+    }
+}
