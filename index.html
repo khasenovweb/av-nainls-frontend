@@ -170,8 +170,11 @@
             <div class="container">
                 <div class="preims__content">
                     <div class="parallax">
-                        <div class="parallax__scene">
-                            <div class="parallax__img" style="background-image: url(img/preims_parallax.png);"></div>
+                        <div class="parallax__scene" data-parallax-scene>
+                            <div class="parallax__img" style="background-image: url(img/preims_parallax.png);" data-depth="0.5"></div>
+                        </div>
+                        <div class="parallax__scene" data-parallax-scene>
+                            <div class="parallax__img" style="background-image: url(img/preims_parallax_2.png);" data-depth="0.5"></div>
                         </div>
                     </div> 
                     <h2 class="sec__title">Строго соблюдаем</h2>
@@ -216,12 +219,37 @@
         <!-- ============================================================================ -->
         <!-- ================================ preims ====================================== -->
         <!-- ============================================================================ -->
+
+        <!-- ============================================================================ -->
+        <!-- ================================ works ===================================== -->
+        <!-- ============================================================================ -->
+        <section class="works">
+            <div class="container">
+                <div class="works__content">
+                    <h2 class="sec__title">наши последние работы</h2>
+                    <div class="works__items">
+                        <div class="works__item" style="background-image: url(img/work-1.png);"></div>
+                        <div class="works__item" style="background-image: url(img/work-2.png);"></div>
+                        <div class="works__item" style="background-image: url(img/work-3.png);"></div>
+                        <div class="works__item" style="background-image: url(img/work-4.png);"></div>
+                        <div class="works__item" style="background-image: url(img/work-5.png);"></div>
+                        <div class="works__item" style="background-image: url(img/work-6.png);"></div>
+                        <div class="works__item" style="background-image: url(img/work-7.png);"></div>
+                        <div class="works__item" style="background-image: url(img/work-8.png);"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ============================================================================ -->
+        <!-- ============================ END works ===================================== -->
+        <!-- ============================================================================ -->
     </div>
     
 
 
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="js/parallax.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

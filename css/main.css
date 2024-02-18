@@ -18,6 +18,11 @@ body {
     background-color: #FBFBFB;
 }
 
+.global_wrapper {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
 .container {
     max-width: 1368rem;
     padding-left: 20rem;
@@ -229,6 +234,7 @@ body {
 
 .preims {
     margin-top: 46rem;
+    padding-bottom: 125rem;
 }
 .preims__content {
     position: relative;
@@ -245,6 +251,17 @@ body {
     width: 484.98rem;
     height: 587.16rem;
 }
+
+
+.preims__content .parallax:nth-child(1) .parallax__scene:nth-child(2) {
+    right: -136rem;
+    bottom: -320rem;
+}
+.preims__content .parallax:nth-child(1) .parallax__scene:nth-child(2) .parallax__img {
+    width: 341rem;
+    height: 396rem;
+}
+
 .preims__items {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -268,3 +285,23 @@ body {
 
 
 
+.works {
+    padding-top: 33rem;
+}
+.works__items {
+    margin-top: 80rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30rem;
+}
+.works__item {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 100%;
+    border-radius: 30rem;
+}
+.works__item:nth-child(1) {
+    grid-row: span 2;
+}
