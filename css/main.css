@@ -236,9 +236,10 @@ body {
 .preims__content .parallax .parallax__scene {
     position: absolute;
 }
+
 .preims__content .parallax:nth-child(1) .parallax__scene:nth-child(1) {
-    left: 0;
-    top: 0;
+    left: -286rem;
+    top: -310rem;
 }
 .preims__content .parallax:nth-child(1) .parallax__scene:nth-child(1) .parallax__img:nth-child(1){
     width: 484.98rem;
