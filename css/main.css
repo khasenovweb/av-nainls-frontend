@@ -441,3 +441,16 @@ body {
     background-color: #E3ABB8;
 
 }
+
+.materials__content {
+    position: relative;
+}
+
+.materials__content .parallax:nth-child(1) .parallax__scene:nth-child(1) {
+    left: -286rem;
+    top: -310rem;
+}
+.materials__content .parallax:nth-child(1) .parallax__scene:nth-child(1) .parallax__img:nth-child(1){
+    width: 313rem;
+    height: 288rem;
+}
