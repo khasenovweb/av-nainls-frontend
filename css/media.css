@@ -97,7 +97,88 @@
     .sec__desc {
         font-size: 15rem;
     }
+    .preims {
+        padding-bottom: 39rem;
+    }
     .preims__items {
         grid-template-columns: repeat(1, 1fr);
+        grid-gap: 18rem;
+        margin-top: 30rem;
     }
+    .preims__content .parallax:nth-child(1) .parallax__scene:nth-child(1) {
+        left: -115rem;
+        top: -153rem;
+    }
+    .preims__content .parallax:nth-child(1) .parallax__scene:nth-child(1) .parallax__img:nth-child(1) {
+        width: 190rem;
+        height: 231rem;
+    }
+
+    .preims__content .parallax:nth-child(1) .parallax__scene:nth-child(2) {
+        right: -86rem;
+        bottom: -165rem;
+    }
+    .preims__content .parallax:nth-child(1) .parallax__scene:nth-child(2) .parallax__img {
+        width: 165rem;
+        height: 192rem;
+    }
+    .works__items {
+        margin-top: 40rem;
+        grid-gap: 10rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .works__item {
+        border-radius: 10rem;
+    }
+    .works__item:nth-child(1) {
+        grid-row: span 1;
+    }
+    .materials__left {
+        width: 100%;
+        min-width: 100%;
+        height: auto;
+        padding-bottom: 230rem;
+        padding-left: 26rem;
+        padding-top: 26rem;
+        padding-right: 26rem;
+    }
+    .materials__content__main {
+        grid-template-columns: 1fr;
+    }
+    .materials__right {
+        padding-right: 0;
+    }
+    .materials__left__img {
+        width: 273rem;
+        height: 202rem;
+    }
+    .materials__slider__item {
+        padding: 16rem;
+    }
+    .materials__slider__item__img {
+        height: 238rem;
+        padding-bottom: 0;
+    }
+    .materials__left__text {
+        font-size: 15rem;
+    }
+    .materials__slider button.owl-prev  {
+        left: 0;
+        transform: translateY(0);
+        top: 111rem;
+    }
+    .materials__slider button.owl-next  {
+        right: 0;
+        transform: translateY(0);
+        top: 111rem;
+    }
+    .materials__slider button.owl-prev img {
+        width: 34rem;
+        height: 34rem;
+    }
+    .materials__slider button.owl-next img {
+        width: 34rem;
+        height: 34rem;
+    }
+
 }
