@@ -315,6 +315,7 @@ body {
 
 .materials {
     padding-top: 57rem;
+    padding-bottom: 95rem;
 }
 .materials__content__main {
     margin-top: 74rem;
@@ -446,11 +447,56 @@ body {
     position: relative;
 }
 
+.parallax .parallax__scene {
+    position: absolute;
+    z-index: 2;
+}
+
 .materials__content .parallax:nth-child(1) .parallax__scene:nth-child(1) {
-    left: -286rem;
-    top: -310rem;
+    left: -110rem;
+    top: 40rem;
 }
 .materials__content .parallax:nth-child(1) .parallax__scene:nth-child(1) .parallax__img:nth-child(1){
     width: 313rem;
     height: 288rem;
+}
+.materials__content .parallax:nth-child(1) .parallax__scene:nth-child(2) {
+    right: -120rem;
+    bottom: -210rem;
+}
+.materials__content .parallax:nth-child(1) .parallax__scene:nth-child(2) .parallax__img:nth-child(1){
+    width: 287rem;
+    height: 258rem;
+}
+
+
+
+.services {
+    padding-top: 58rem;
+}
+
+.services__tab_link__wrapper {
+    background: linear-gradient(93.84deg, rgba(255, 255, 255, 0) 46.85%, rgba(255, 255, 255, 0.14375) 66.03%, rgba(255, 255, 255, 0) 83.68%),
+    linear-gradient(180deg, #E5A8BE 0%, #D07A8A 100%);
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    border-radius: 10rem;
+    
+}
+.services__tab_link {
+    display: flex;
+    align-items: center;
+    height: 88rem;
+    padding-left: 40rem;
+    padding-right: 40rem;
+    background-color: #fff;
+    border-radius: 8rem;
+    border: none;
+    cursor: pointer;
+}
+.services__tab_link__title {
+    margin-left: 10rem;
 }

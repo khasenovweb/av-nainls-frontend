@@ -181,4 +181,22 @@
         height: 34rem;
     }
 
+    .materials__content .parallax:nth-child(1) .parallax__scene:nth-child(1) {
+        left: -110rem;
+        top: 40rem;
+    }
+    .materials__content .parallax:nth-child(1) .parallax__scene:nth-child(1) .parallax__img:nth-child(1){
+        width: 154rem;
+        height: 142rem;
+    }
+
+    .materials__content .parallax:nth-child(1) .parallax__scene:nth-child(2) {
+        right: -120rem;
+        bottom: -210rem;
+    }
+    .materials__content .parallax:nth-child(1) .parallax__scene:nth-child(2) .parallax__img:nth-child(1){
+        width: 123rem;
+        height: 111rem;
+    }
+
 }
