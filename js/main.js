@@ -33,7 +33,7 @@ $(document).ready(function(){
         nav: true,
         dots: true,
         navText: ["<img src='/img/arrow-left.svg'>","<img src='/img/arrow-right.svg' >"],
-        dotsContainer: ".services__tab_content__slider__dots",
+        // dotsContainer: ".services__tab_content__slider__dots",
         responsive: {
             0: {
                 items: 1,
@@ -47,6 +47,27 @@ $(document).ready(function(){
                 items: 3,
             }
         }
+    });
+
+
+    $('[data-tab-link="1"]').addClass('active');
+    $('[data-tab-content]').hide();
+    $('[data-tab-content="1"]').show();
+
+
+    $('[data-tab-link]').click(function(){
+        var id = $(this).attr('data-tab-link');
+        $('[data-tab-link]').removeClass('active');
+        $(this).addClass('active');
+        $('[data-tab-content]').hide();
+        $('[data-tab-content="'+id+'"]').show();
+    });
+
+
+    $('[data-faq-item-content]').slideUp(0);
+    $('[data-faq-item-header]').click(function(){
+        $(this).closest('[data-faq-item]').find('[data-faq-item-content]').slideToggle(200);
+        $(this).closest('[data-faq-item]').toggleClass('active');
     });
 
 });

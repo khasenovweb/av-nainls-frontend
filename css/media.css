@@ -202,8 +202,8 @@
     }
 
     .materials__content .parallax:nth-child(1) .parallax__scene:nth-child(2) {
-        right: -120rem;
-        bottom: -210rem;
+        right: -60rem;
+        bottom: -29rem;
     }
     .materials__content .parallax:nth-child(1) .parallax__scene:nth-child(2) .parallax__img:nth-child(1){
         width: 123rem;
@@ -222,8 +222,12 @@
 
     }
     .services__tab_link__wrapper:hover .services__tab_link {
-        padding-right: 14rem;
-        padding-left: 14rem;
+        padding-right: 16rem;
+        padding-left: 16rem;
+    }
+    .services__tab_link__wrapper.active .services__tab_link {
+        padding-right: 16rem;
+        padding-left: 16rem;
     }
     .services__tab_link svg {
         height: 18rem;
@@ -259,6 +263,108 @@
         padding-left: 55rem;
         padding-right: 15rem;
         font-size: 14rem;
+    }
+
+    .services__content .parallax:nth-child(1) .parallax__scene:nth-child(1) {
+        right: -86rem;
+        bottom: 10rem;
+    }
+    .services__content .parallax:nth-child(1) .parallax__scene:nth-child(1) .parallax__img:nth-child(1){
+        width: 165rem;
+        height: 129rem;
+    }
+
+    .masters {
+        padding-top: 70rem;
+        padding-bottom: 15rem;
+    }
+    .masters__item__title {
+        font-size: 24rem;
+    }
+    .masters__items {
+        margin-top: 35rem;
+    }
+    .masters__item {
+        padding: 20rem;
+    }
+
+    .about {
+        padding-top: 15rem;
+        padding-bottom: 43rem;
+    }
+
+    .about__content {
+        grid-template-columns: 1fr;
+    }
+    .about__content__img {
+        width: 100%;
+        padding-bottom: 100%;
+    }
+    .about__content__text {
+        padding: 15rem;
+    }
+    .about__content__desc {
+        margin-top: 7rem;
+    }
+
+    .about__content .parallax:nth-child(3) .parallax__scene:nth-child(1) {
+        left: -116rem;
+        top: -90rem;
+    }
+    .about__content .parallax:nth-child(3) .parallax__scene:nth-child(1) .parallax__img:nth-child(1) {
+        width: 194rem;
+        height: 182rem;
+    }
+
+    .about__content .parallax:nth-child(3) .parallax__scene:nth-child(2) {
+        right: -66rem;
+        bottom: -94rem;
+    }
+    .about__content .parallax:nth-child(3) .parallax__scene:nth-child(2) .parallax__img:nth-child(1) {
+        width: 136rem;
+        height: 161rem;
+    }
+
+    .faq {
+        padding-top: 43rem;
+    }
+    .faq__items {
+        width: 100%;
+    }
+    .faq__item__header {
+        padding: 17rem;
+    }
+    .faq__item__header__title {
+        font-size: 16rem;
+    }
+    .faq__item__header__icon {
+        width: 30rem;
+        height: 30rem;
+    }
+    .faq__item__content {
+        font-size: 17rem;
+        padding: 17rem 17rem;
+        padding-top: 0;
+    }
+    .faq__content .parallax:nth-child(1) .parallax__scene:nth-child(1) {
+        left: -106rem;
+        top: -140rem;
+    }
+    .faq__content .parallax:nth-child(1) .parallax__scene:nth-child(1) .parallax__img:nth-child(1) {
+        width: 171rem;
+        height: 187rem;
+    }
+    .faq__content .parallax:nth-child(1) .parallax__scene:nth-child(2) {
+        right: -176rem;
+        bottom: -229rem;
+    }
+    .faq__content .parallax:nth-child(1) .parallax__scene:nth-child(2) {
+        right: -56rem;
+        bottom: -109rem;
+    }
+    .faq__content .parallax:nth-child(1) .parallax__scene:nth-child(2) .parallax__img:nth-child(1){
+        width: 99rem;
+        height: 126rem;
     }
 
 }

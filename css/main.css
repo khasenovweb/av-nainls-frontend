@@ -40,6 +40,9 @@ body {
     -webkit-text-fill-color: transparent;
     text-align: center;
 }
+.sec__title.left {
+    text-align: left;
+}
 .sec__desc {
     text-align: center;
     font-size: 24rem;
@@ -548,7 +551,7 @@ body {
 
 .services {
     padding-top: 58rem;
-    padding-bottom: 8rem;
+    padding-bottom: 44rem;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -606,13 +609,14 @@ body {
     0rem 15rem 42rem -30rem #BC678680,
     0rem 4rem 0rem 0rem #BC6786;
     padding: 0;
+    transform: translateY(-2rem);
 }
 .services__tab_link__wrapper.active .services__tab_link {
     background: linear-gradient(180deg, #E5A8BE 0%, #D07A8A 100%),
     linear-gradient(93.84deg, rgba(255, 255, 255, 0) 46.85%, rgba(255, 255, 255, 0.14375) 66.03%, rgba(255, 255, 255, 0) 83.68%);
     padding-left: 42rem;
     padding-right: 42rem;
-    height: 80rem;
+    /* height: 80rem; */
 }
 .services__tab_link__wrapper.active .services__tab_link__title {
     color: white;
@@ -757,6 +761,7 @@ body {
     align-items: center;
     justify-content: center;
     box-shadow: 0px 4rem 0rem 0rem rgba(188, 103, 134, 1);
+    margin-top: -35rem;
 }
 .services__tab_content__slider .owl-nav button:active {
     transform: translateY(-50%) translateY(4rem);
@@ -765,6 +770,7 @@ body {
 .services__tab_content__slider .owl-nav button img {
     width: 71rem;
     height: 71rem;
+
 }
 .services__tab_content__slider .owl-nav button.owl-prev {
     left: -50rem;
@@ -781,6 +787,26 @@ body {
     margin-top: 37rem;
 }
 
+.services__tab_content__slider .owl-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 37rem;
+}
+
+.services__tab_content__slider .owl-dots button.owl-dot {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 100%;
+    background-color: #D9D9D9;
+    border: none;
+    cursor: pointer;
+    margin: 0 3.5rem;
+}
+.services__tab_content__slider .owl-dots button.owl-dot.active {
+    background-color: #E3ABB8;
+}
+
 .services__tab_content__slider__dots button.owl-dot {
     width: 8rem;
     height: 8rem;
@@ -794,10 +820,226 @@ body {
     background-color: #E3ABB8;
 }
 
+.services__content {
+    position: relative;
+}
+.services__content .parallax:nth-child(1) .parallax__scene:nth-child(1) {
+    right: -206rem;
+    bottom: -130rem;
+}
+.services__content .parallax:nth-child(1) .parallax__scene:nth-child(1) .parallax__img:nth-child(1){
+    width: 347rem;
+    height: 270rem;
+}
+
 /* ============================================================================ */
 /* ============================================================================ */
 /* ============================================================================ */
 /* ========================== END services ==================================== */
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
+
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
+/* =============================== masters ==================================== */
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
+.masters {
+    padding-top: 76rem;
+    padding-bottom: 100rem;
+}
+.masters__items {
+    display: flex;
+    justify-content: center;
+    margin-top: 45rem;
+}
+.masters__item {
+    background-color: #fff;
+    padding: 25rem;
+    border-radius: 30rem;
+    width: 423rem;
+}
+.masters__item__img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 80%;
+    border-radius: 20rem;
+}
+.masters__item__title {
+    font-size: 32rem;
+    font-weight: 400;
+    margin-top: 27rem;
+    text-transform: uppercase;
+    background: linear-gradient(130.82deg, #7E7E7E 27.77%, #3F3F3F 64.15%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.masters__item__subtitle {
+    font-size: 16rem;
+    font-weight: 400;
+    color: #D68697;
+    margin-top: 9rem;
+}
+.masters__item__desc {
+    font-size: 16rem;
+    font-weight: 300;
+    margin-top: 12rem;
+    color: #151515;
+}
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
+/* =========================== END masters ==================================== */
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
+
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
+/* ================================= about ==================================== */
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
+.about {
+    padding-top: 128rem;
+    padding-bottom: 109rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.about__content {
+    background-color: #fff;
+    border-radius: 30rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+}
+.about__content__img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30rem;
+}
+.about__content__text {
+    padding: 60rem 40rem;
+}
+.about__content__desc {
+    margin-top: 19rem;
+    font-size: 18rem;
+    font-weight: 300;
+    color: #151515;
+    line-height: 140%;
+}
+
+.about__content .parallax:nth-child(3) .parallax__scene:nth-child(1) {
+    left: -166rem;
+    top: -200rem;
+}
+.about__content .parallax:nth-child(3) .parallax__scene:nth-child(1) .parallax__img:nth-child(1){
+    width: 342rem;
+    height: 321rem;
+}
+.about__content .parallax:nth-child(3) .parallax__scene:nth-child(2) {
+    right: -356rem;
+    bottom: -404rem;
+}
+.about__content .parallax:nth-child(3) .parallax__scene:nth-child(2) .parallax__img:nth-child(1){
+    width: 505rem;
+    height: 606rem;
+}
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================= END about ==================================== */
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
+
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
+/* =================================== faq ==================================== */
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
+.faq {
+    padding-top: 64rem;
+    padding-bottom: 97rem;
+}
+.faq__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.faq__items {
+    width: 1062rem;
+    margin-top: 48rem;
+}
+.faq__item {
+    background-color: #fff;
+    width: 100%;
+    border-radius: 20rem;
+    margin-bottom: 13rem;
+}
+.faq__item:last-child {
+    margin-bottom: 0;
+}
+.faq__item.active .faq__item__header__icon {
+    transform: rotate(180deg);
+}
+.faq__item__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 15rem 37rem;
+}
+.faq__item__header__title {
+    font-size: 26rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #303030;
+    flex-grow: 1;
+    padding-right: 14rem;
+}
+.faq__item__content {
+    padding: 27rem 37rem;
+    padding-top: 0;
+    /* margin-top: -20rem; */
+}
+.faq__item__header__icon {
+    width: 52rem;
+    height: 52rem;
+    transition: 0.2s;
+}
+.faq__content .parallax:nth-child(1) .parallax__scene:nth-child(1) {
+    left: -166rem;
+    top: 40rem;
+}
+.faq__content .parallax:nth-child(1) .parallax__scene:nth-child(1) .parallax__img:nth-child(1){
+    width: 265rem;
+    height: 291rem;
+}
+.faq__content .parallax:nth-child(1) .parallax__scene:nth-child(2) {
+    right: -176rem;
+    bottom: -229rem;
+}
+.faq__content .parallax:nth-child(1) .parallax__scene:nth-child(2) .parallax__img:nth-child(1){
+    width: 277rem;
+    height: 353rem;
+}
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
+/* =============================== END faq ==================================== */
 /* ============================================================================ */
 /* ============================================================================ */
 /* ============================================================================ */

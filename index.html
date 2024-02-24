@@ -340,10 +340,15 @@
         <section class="services" style="background-image: url(img/hero_bg.png);">
             <div class="container">
                 <div class="services__content">
+                    <div class="parallax">
+                        <div class="parallax__scene" data-parallax-scene>
+                            <div class="parallax__img" style="background-image: url(img/services_parallax_1.png);" data-depth="0.5"></div>
+                        </div>
+                    </div> 
                     <h2 class="sec__title">Наши услуги</h2>
                     <div class="services__tab_links__wrapper">
                         <div class="services__tab_links">
-                            <div class="services__tab_link__wrapper">
+                            <div class="services__tab_link__wrapper" data-tab-link="1">
                                 <button class="services__tab_link">
                                     <svg width="34rem" height="34rem" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M33.75 8.56264C33.75 8.56264 30.9033 14.5617 30.133 17.6321C29.1254 21.6482 30.2791 24.6842 28.8148 28.5784C26.2837 33.1466 26.1124 33.8846 16.8751 33.875C13.4908 33.8719 3.79554 31.2903 3.79554 31.2903C2.45883 30.9466 0 31.1491 0 29.6562C0 28.1633 1.74938 27.0732 3.30258 27.0696L9.42188 27.6069C10.9083 27.5137 12.4654 26.6429 12.5128 24.6988C12.488 21.8211 12.2034 19.6112 10.7427 17.2738L5.07059 8.42398C4.73182 7.71945 4.65124 6.51816 5.63189 5.98189C6.61254 5.44555 7.72671 6.24275 8.10724 6.93687L14.4431 15.5551C15.1194 16.1847 16.3231 16.306 16.2205 14.9659L13.4229 2.13973C13.2486 1.22848 13.7111 0.125 14.7658 0.125C16.1501 0.125 17.0014 0.653398 16.9746 1.48998L20.0507 14.1451C20.2912 14.761 21.1437 14.6788 21.3731 14.1106L22.2493 1.80441C22.2943 1.41186 22.8064 0.727648 23.7892 0.870242C24.7719 1.01277 25.3385 2.06555 25.2345 2.47287L24.9501 14.6324C25.1497 15.7101 25.9969 15.8675 26.6563 15.2658L30.9608 7.56751C31.2224 6.92183 32.2467 6.78732 32.8392 7.04333C33.3905 7.40241 33.7501 7.88427 33.7501 8.56229L33.75 8.56264Z" fill="#D48593"/>
@@ -364,7 +369,7 @@
                                     <span class="services__tab_link__title">Маникюр</span>
                                 </button>
                             </div>
-                            <div class="services__tab_link__wrapper">
+                            <div class="services__tab_link__wrapper" data-tab-link="2">
                                 <button class="services__tab_link">
                                     <svg width="36rem" height="36rem" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M9.18285 2.41448C9.09847 2.41378 9.02113 2.41519 8.94379 2.4187C7.86097 2.46792 6.88363 2.96151 5.97097 3.82565C4.92824 4.81284 4.00715 6.28729 3.27519 8.00854C1.85699 11.3484 1.15527 15.6023 1.30082 18.9632C6.47722 22.05 11.4891 21.2976 15.5602 19.7859C15.7571 16.2562 15.525 11.9953 14.5828 8.59214C14.0907 6.82378 13.4086 5.29237 12.5508 4.21589C11.693 3.1394 10.6875 2.51573 9.42191 2.42573C9.33754 2.4187 9.26019 2.41519 9.18285 2.41448ZM26.8172 2.41519C26.7399 2.41589 26.6555 2.4194 26.5782 2.42503C25.3125 2.51503 24.3071 3.1387 23.4493 4.21519C22.5844 5.29167 21.9094 6.82378 21.4172 8.59214C20.475 11.9953 20.243 16.2562 20.4328 19.7859C24.511 21.2976 29.5172 22.05 34.6922 18.9632C34.8399 15.6023 34.1368 11.3484 32.7235 8.00854C31.9922 6.28729 31.0711 4.81284 30.0305 3.82565C29.1164 2.96151 28.1391 2.46792 27.0563 2.4187V2.418C26.9789 2.41519 26.9016 2.41378 26.8172 2.41519ZM3.04387 21.2414C2.98621 25.0171 3.40597 28.9968 4.97957 31.6687C6.09121 33.5601 8.36722 34.664 10.3008 34.6078C11.2711 34.5796 12.1289 34.2773 12.7618 33.7007C13.3875 33.1242 13.8235 32.2523 13.8727 30.9375C13.9641 28.4554 13.3946 25.7976 13.1907 23.0906C13.1555 22.6757 13.1414 22.2679 13.1344 21.8531C10.0758 22.5632 6.60379 22.6546 3.04387 21.2414ZM32.9555 21.2414C29.3907 22.6617 25.9243 22.5632 22.8657 21.8531C22.8586 22.2609 22.8375 22.6757 22.8024 23.0835C22.5985 25.7976 22.036 28.4554 22.1274 30.9375C22.1766 32.2523 22.6125 33.1242 23.2383 33.7007C23.8641 34.2773 24.7289 34.5796 25.6922 34.6078C27.6328 34.664 29.9039 33.5601 31.0149 31.6687C32.5969 28.9968 33.0047 25.0171 32.9555 21.2414Z" fill="#D48593"/>
@@ -385,7 +390,7 @@
                                     <span class="services__tab_link__title">Педикюр</span>
                                 </button>
                             </div>
-                            <div class="services__tab_link__wrapper">
+                            <div class="services__tab_link__wrapper" data-tab-link="3">
                                 <button class="services__tab_link">
                                     <svg width="80rem" height="36rem" viewBox="0 0 80 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M33.75 9.56258C33.75 9.56258 30.9033 15.5616 30.133 18.632C29.1254 22.6482 30.2791 25.6842 28.8148 29.5783C26.2837 34.1465 26.1124 34.8845 16.8751 34.8749C13.4908 34.8718 3.79554 32.2903 3.79554 32.2903C2.45883 31.9466 0 32.1491 0 30.6561C0 29.1632 1.74938 28.0731 3.30258 28.0695L9.42188 28.6069C10.9083 28.5136 12.4654 27.6429 12.5128 25.6987C12.488 22.8211 12.2034 20.6111 10.7427 18.2737L5.07059 9.42392C4.73182 8.71939 4.65124 7.5181 5.63189 6.98183C6.61254 6.44549 7.72671 7.24269 8.10724 7.93681L14.4431 16.555C15.1194 17.1847 16.3231 17.306 16.2205 15.9658L13.4229 3.13967C13.2486 2.22842 13.7111 1.12494 14.7658 1.12494C16.1501 1.12494 17.0014 1.65334 16.9746 2.48992L20.0507 15.145C20.2912 15.761 21.1437 15.6787 21.3731 15.1106L22.2493 2.80435C22.2943 2.4118 22.8064 1.72759 23.7892 1.87018C24.7719 2.0127 25.3385 3.06549 25.2345 3.47281L24.9501 15.6324C25.1497 16.7101 25.9969 16.8674 26.6563 16.2658L30.9608 8.56745C31.2224 7.92177 32.2467 7.78726 32.8392 8.04327C33.3905 8.40235 33.7501 8.8842 33.7501 9.56223L33.75 9.56258Z" fill="#D48593"/>
@@ -420,7 +425,303 @@
                             </div>
                         </div>
                     </div>
-                    <div class="services__tab_contents">
+                    <div class="services__tab_contents" data-tab-content="1">
+                        <div class="services__tab_content">
+                            <div class="services__tab_content__slider owl-carousel">
+                                <!-- services__tab_content__slider__item -->
+                                <div class="services__tab_content__slider__item">
+                                    <div class="services__tab_content__slider__item__title">Маникюр «Пальчики плюс» (аппаратный)</div>
+                                    <div class="services__tab_content__slider__item__pricetime">
+                                        <div class="services__tab_content__slider__item__price">
+                                            1900₽
+                                        </div>
+                                        <div class="services__tab_content__slider__item__time">
+                                            <img src="img/time.png" alt="" class="services__tab_content__slider__item__time__img">
+                                            90 минут
+                                        </div>
+                                    </div>
+                                    <ul class="services__tab_content__slider__item__list">
+                                        <li class="services__tab_content__slider__item__list__item">
+                                            придание формы ногтям <br> одноразовой пилкой
+                                        </li>
+                                        <li>
+                                            способ обработки кутикулы <br> аппаратом
+                                        </li>
+                                        <li>
+                                            база: стандартная илиукрепляющая покрытие гель-лаком
+                                        </li>
+                                        <li>
+                                            массаж с кремом
+                                        </li>
+                                        <li>
+                                            масло для кутикулы
+                                        </li>
+                                    </ul>
+                                    <div class="services__tab_content__slider__item__desc">
+                                        *снятие гель-лака в подарок! Действует на следующий визит в течение 45 дней при услуге маникюра или педикюра
+                                    </div>
+                                    <a href="" class="btn services__tab_content__slider__item__btn">Записаться</a>
+                                </div>
+                                <!-- END services__tab_content__slider__item -->
+                                <!-- services__tab_content__slider__item -->
+                                <div class="services__tab_content__slider__item">
+                                    <div class="services__tab_content__slider__item__title">Маникюр «Пальчики плюс» (аппаратный)</div>
+                                    <div class="services__tab_content__slider__item__pricetime">
+                                        <div class="services__tab_content__slider__item__price">
+                                            1900₽
+                                        </div>
+                                        <div class="services__tab_content__slider__item__time">
+                                            <img src="img/time.png" alt="" class="services__tab_content__slider__item__time__img">
+                                            90 минут
+                                        </div>
+                                    </div>
+                                    <ul class="services__tab_content__slider__item__list">
+                                        <li class="services__tab_content__slider__item__list__item">
+                                            придание формы ногтям одноразовой пилкой
+                                        </li>
+                                        <li>
+                                            способ обработки кутикулы аппаратом
+                                        </li>
+                                        <li>
+                                            база: стандартная илиукрепляющая покрытие гель-лаком
+                                        </li>
+                                        <li>
+                                            массаж с кремом
+                                        </li>
+                                        <li>
+                                            масло для кутикулы
+                                        </li>
+                                    </ul>
+                                    <div class="services__tab_content__slider__item__desc">
+                                        *снятие гель-лака в подарок! Действует на следующий визит в течение 45 дней при услуге маникюра или педикюра
+                                    </div>
+                                    <a href="" class="btn services__tab_content__slider__item__btn">Записаться</a>
+                                </div>
+                                <!-- END services__tab_content__slider__item -->
+                                <!-- services__tab_content__slider__item -->
+                                <div class="services__tab_content__slider__item">
+                                    <div class="services__tab_content__slider__item__title">Маникюр «Пальчики плюс» (аппаратный)</div>
+                                    <div class="services__tab_content__slider__item__pricetime">
+                                        <div class="services__tab_content__slider__item__price">
+                                            1900₽
+                                        </div>
+                                        <div class="services__tab_content__slider__item__time">
+                                            <img src="img/time.png" alt="" class="services__tab_content__slider__item__time__img">
+                                            90 минут
+                                        </div>
+                                    </div>
+                                    <ul class="services__tab_content__slider__item__list">
+                                        <li class="services__tab_content__slider__item__list__item">
+                                            придание формы ногтям одноразовой пилкой
+                                        </li>
+                                        <li>
+                                            способ обработки кутикулы аппаратом
+                                        </li>
+                                        <li>
+                                            база: стандартная илиукрепляющая покрытие гель-лаком
+                                        </li>
+                                        <li>
+                                            массаж с кремом
+                                        </li>
+                                        <li>
+                                            масло для кутикулы
+                                        </li>
+                                    </ul>
+                                    <div class="services__tab_content__slider__item__desc">
+                                        *снятие гель-лака в подарок! Действует на следующий визит в течение 45 дней при услуге маникюра или педикюра
+                                    </div>
+                                    <a href="" class="btn services__tab_content__slider__item__btn">Записаться</a>
+                                </div>
+                                <!-- END services__tab_content__slider__item -->
+                                <!-- services__tab_content__slider__item -->
+                                <div class="services__tab_content__slider__item">
+                                    <div class="services__tab_content__slider__item__title">Маникюр «Пальчики плюс» (аппаратный)</div>
+                                    <div class="services__tab_content__slider__item__pricetime">
+                                        <div class="services__tab_content__slider__item__price">
+                                            1900₽
+                                        </div>
+                                        <div class="services__tab_content__slider__item__time">
+                                            <img src="img/time.png" alt="" class="services__tab_content__slider__item__time__img">
+                                            90 минут
+                                        </div>
+                                    </div>
+                                    <ul class="services__tab_content__slider__item__list">
+                                        <li class="services__tab_content__slider__item__list__item">
+                                            придание формы ногтям одноразовой пилкой
+                                        </li>
+                                        <li>
+                                            способ обработки кутикулы аппаратом
+                                        </li>
+                                        <li>
+                                            база: стандартная илиукрепляющая покрытие гель-лаком
+                                        </li>
+                                        <li>
+                                            массаж с кремом
+                                        </li>
+                                        <li>
+                                            масло для кутикулы
+                                        </li>
+                                    </ul>
+                                    <div class="services__tab_content__slider__item__desc">
+                                        *снятие гель-лака в подарок! Действует на следующий визит в течение 45 дней при услуге маникюра или педикюра
+                                    </div>
+                                    <a href="" class="btn services__tab_content__slider__item__btn">Записаться</a>
+                                </div>
+                                <!-- END services__tab_content__slider__item -->
+                                
+                            </div>
+                            <div class="services__tab_content__slider__dots"></div>
+                        </div>
+                    </div>
+                    <div class="services__tab_contents" data-tab-content="2">
+                        <div class="services__tab_content">
+                            <div class="services__tab_content__slider owl-carousel">
+                                <!-- services__tab_content__slider__item -->
+                                <div class="services__tab_content__slider__item">
+                                    <div class="services__tab_content__slider__item__title">Маникюр «Пальчики плюс» (аппаратный)</div>
+                                    <div class="services__tab_content__slider__item__pricetime">
+                                        <div class="services__tab_content__slider__item__price">
+                                            1900₽
+                                        </div>
+                                        <div class="services__tab_content__slider__item__time">
+                                            <img src="img/time.png" alt="" class="services__tab_content__slider__item__time__img">
+                                            90 минут
+                                        </div>
+                                    </div>
+                                    <ul class="services__tab_content__slider__item__list">
+                                        <li class="services__tab_content__slider__item__list__item">
+                                            придание формы ногтям <br> одноразовой пилкой
+                                        </li>
+                                        <li>
+                                            способ обработки кутикулы <br> аппаратом
+                                        </li>
+                                        <li>
+                                            база: стандартная илиукрепляющая покрытие гель-лаком
+                                        </li>
+                                        <li>
+                                            массаж с кремом
+                                        </li>
+                                        <li>
+                                            масло для кутикулы
+                                        </li>
+                                    </ul>
+                                    <div class="services__tab_content__slider__item__desc">
+                                        *снятие гель-лака в подарок! Действует на следующий визит в течение 45 дней при услуге маникюра или педикюра
+                                    </div>
+                                    <a href="" class="btn services__tab_content__slider__item__btn">Записаться</a>
+                                </div>
+                                <!-- END services__tab_content__slider__item -->
+                                <!-- services__tab_content__slider__item -->
+                                <div class="services__tab_content__slider__item">
+                                    <div class="services__tab_content__slider__item__title">Маникюр «Пальчики плюс» (аппаратный)</div>
+                                    <div class="services__tab_content__slider__item__pricetime">
+                                        <div class="services__tab_content__slider__item__price">
+                                            1900₽
+                                        </div>
+                                        <div class="services__tab_content__slider__item__time">
+                                            <img src="img/time.png" alt="" class="services__tab_content__slider__item__time__img">
+                                            90 минут
+                                        </div>
+                                    </div>
+                                    <ul class="services__tab_content__slider__item__list">
+                                        <li class="services__tab_content__slider__item__list__item">
+                                            придание формы ногтям одноразовой пилкой
+                                        </li>
+                                        <li>
+                                            способ обработки кутикулы аппаратом
+                                        </li>
+                                        <li>
+                                            база: стандартная илиукрепляющая покрытие гель-лаком
+                                        </li>
+                                        <li>
+                                            массаж с кремом
+                                        </li>
+                                        <li>
+                                            масло для кутикулы
+                                        </li>
+                                    </ul>
+                                    <div class="services__tab_content__slider__item__desc">
+                                        *снятие гель-лака в подарок! Действует на следующий визит в течение 45 дней при услуге маникюра или педикюра
+                                    </div>
+                                    <a href="" class="btn services__tab_content__slider__item__btn">Записаться</a>
+                                </div>
+                                <!-- END services__tab_content__slider__item -->
+                                <!-- services__tab_content__slider__item -->
+                                <div class="services__tab_content__slider__item">
+                                    <div class="services__tab_content__slider__item__title">Маникюр «Пальчики плюс» (аппаратный)</div>
+                                    <div class="services__tab_content__slider__item__pricetime">
+                                        <div class="services__tab_content__slider__item__price">
+                                            1900₽
+                                        </div>
+                                        <div class="services__tab_content__slider__item__time">
+                                            <img src="img/time.png" alt="" class="services__tab_content__slider__item__time__img">
+                                            90 минут
+                                        </div>
+                                    </div>
+                                    <ul class="services__tab_content__slider__item__list">
+                                        <li class="services__tab_content__slider__item__list__item">
+                                            придание формы ногтям одноразовой пилкой
+                                        </li>
+                                        <li>
+                                            способ обработки кутикулы аппаратом
+                                        </li>
+                                        <li>
+                                            база: стандартная илиукрепляющая покрытие гель-лаком
+                                        </li>
+                                        <li>
+                                            массаж с кремом
+                                        </li>
+                                        <li>
+                                            масло для кутикулы
+                                        </li>
+                                    </ul>
+                                    <div class="services__tab_content__slider__item__desc">
+                                        *снятие гель-лака в подарок! Действует на следующий визит в течение 45 дней при услуге маникюра или педикюра
+                                    </div>
+                                    <a href="" class="btn services__tab_content__slider__item__btn">Записаться</a>
+                                </div>
+                                <!-- END services__tab_content__slider__item -->
+                                <!-- services__tab_content__slider__item -->
+                                <div class="services__tab_content__slider__item">
+                                    <div class="services__tab_content__slider__item__title">Маникюр «Пальчики плюс» (аппаратный)</div>
+                                    <div class="services__tab_content__slider__item__pricetime">
+                                        <div class="services__tab_content__slider__item__price">
+                                            1900₽
+                                        </div>
+                                        <div class="services__tab_content__slider__item__time">
+                                            <img src="img/time.png" alt="" class="services__tab_content__slider__item__time__img">
+                                            90 минут
+                                        </div>
+                                    </div>
+                                    <ul class="services__tab_content__slider__item__list">
+                                        <li class="services__tab_content__slider__item__list__item">
+                                            придание формы ногтям одноразовой пилкой
+                                        </li>
+                                        <li>
+                                            способ обработки кутикулы аппаратом
+                                        </li>
+                                        <li>
+                                            база: стандартная илиукрепляющая покрытие гель-лаком
+                                        </li>
+                                        <li>
+                                            массаж с кремом
+                                        </li>
+                                        <li>
+                                            масло для кутикулы
+                                        </li>
+                                    </ul>
+                                    <div class="services__tab_content__slider__item__desc">
+                                        *снятие гель-лака в подарок! Действует на следующий визит в течение 45 дней при услуге маникюра или педикюра
+                                    </div>
+                                    <a href="" class="btn services__tab_content__slider__item__btn">Записаться</a>
+                                </div>
+                                <!-- END services__tab_content__slider__item -->
+                                
+                            </div>
+                            <div class="services__tab_content__slider__dots"></div>
+                        </div>
+                    </div>
+                    <div class="services__tab_contents" data-tab-content="3">
                         <div class="services__tab_content">
                             <div class="services__tab_content__slider owl-carousel">
                                 <!-- services__tab_content__slider__item -->
@@ -573,6 +874,155 @@
         </section>
         <!-- ============================================================================ -->
         <!-- ======================== END services ===================================== -->
+        <!-- ============================================================================ -->
+
+
+        <!-- ============================================================================ -->
+        <!-- ============================== masters ===================================== -->
+        <!-- ============================================================================ -->
+        <section class="masters">
+            <div class="container">
+                <div class="masters__content">
+                    <h2 class="sec__title">наши мастера</h2>
+                    <div class="masters__items">
+                        <div class="masters__item">
+                            <div class="masters__item__img" style="background-image: url(img/master.svg);"></div>
+                            <div class="masters__item__title">
+                                Ангелина <br> Валеева
+                            </div>
+                            <div class="masters__item__subtitle">
+                                Стаж 15 лет
+                            </div>
+                            <div class="masters__item__desc">
+                                ТОП-Мастер маникюра и Snart <br> педикюра
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ============================================================================ -->
+        <!-- ========================== END masters ===================================== -->
+        <!-- ============================================================================ -->
+
+        <!-- ============================================================================ -->
+        <!-- ================================ about ===================================== -->
+        <!-- ============================================================================ -->
+        <section class="about" style="background-image: url(img/hero_bg.png);">
+            <div class="container">
+                <div class="about__content">
+                    <div class="about__content__img" style="background-image: url(img/about.png);"></div>
+                    <div class="about__content__text">
+                        <h2 class="sec__title left">о нас</h2>
+                        <div class="about__content__desc">
+                            Мы предлагаем своим гостям сбалансированный пакет услуг по уходу за телом и лицом, основанный  на эффективном комплексе SPA-процедур, уникальных массажных техниках, многовековом опыте аюрведы и восточных практик, а также последних разработках в области эстетической косметологии. <br><br>
+                            Мы предлагаем своим гостям сбалансированный пакет услуг по уходу за телом и лицом, основанный на эффективном комплексе SPA-процедур, уникальных массажных техниках, многовековом опыте аюрведы и восточных практик, косметологии. <br><br>
+                            Мы предлагаем своим гостям сбалансированный пакет услуг по уходу за телом и лицом, основанный на эффективном комплексе SPA-процедур, уникальных массажных техниках, многовековом опыте аюрведы и восточных практик, а также последних разработках в области эстетической косметологии.
+                        </div>
+                    </div>
+                    <div class="parallax">
+                        <div class="parallax__scene" data-parallax-scene>
+                            <div class="parallax__img" style="background-image: url(img/about_parallax_1.png);" data-depth="0.5"></div>
+                        </div>
+                        <div class="parallax__scene" data-parallax-scene>
+                            <div class="parallax__img" style="background-image: url(img/about_parallax_2.png);" data-depth="0.5"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ============================================================================ -->
+        <!-- ============================ END about ===================================== -->
+        <!-- ============================================================================ -->
+
+        <!-- ============================================================================ -->
+        <!-- ================================== faq ===================================== -->
+        <!-- ============================================================================ -->
+        <section class="faq">
+            <div class="container">
+                <div class="faq__content">
+                    <div class="parallax">
+                        <div class="parallax__scene" data-parallax-scene>
+                            <div class="parallax__img" style="background-image: url(img/faq_parallax_1.png);" data-depth="0.5"></div>
+                        </div>
+                        <div class="parallax__scene" data-parallax-scene>
+                            <div class="parallax__img" style="background-image: url(img/faq_parallax_2.png);" data-depth="0.5"></div>
+                        </div>
+                    </div> 
+                    <h2 class="sec__title">Ответы на вопросы</h2>
+                    <div class="faq__items">
+                        <!-- faq__item -->
+                        <div class="faq__item" data-faq-item>
+                            <div class="faq__item__header" data-faq-item-header>
+                                <div class="faq__item__header__title">Как записаться на приём?</div>
+                                <img src="img/faq_arrow.svg" alt="" class="faq__item__header__icon">
+                            </div>
+                            <div class="faq__item__content" data-faq-item-content>
+                                Обучение будет доступно сразу после оплаты, ждать ничего не придется.
+                            </div>
+                        </div>
+                        <!-- END faq__item -->
+                        <!-- faq__item -->
+                        <div class="faq__item" data-faq-item>
+                            <div class="faq__item__header" data-faq-item-header>
+                                <div class="faq__item__header__title">Как записаться на приём?</div>
+                                <img src="img/faq_arrow.svg" alt="" class="faq__item__header__icon">
+                            </div>
+                            <div class="faq__item__content" data-faq-item-content>
+                                Обучение будет доступно сразу после оплаты, ждать ничего не придется.
+                            </div>
+                        </div>
+                        <!-- END faq__item -->
+                        <!-- faq__item -->
+                        <div class="faq__item" data-faq-item>
+                            <div class="faq__item__header" data-faq-item-header>
+                                <div class="faq__item__header__title">Как записаться на приём?</div>
+                                <img src="img/faq_arrow.svg" alt="" class="faq__item__header__icon">
+                            </div>
+                            <div class="faq__item__content" data-faq-item-content>
+                                Обучение будет доступно сразу после оплаты, ждать ничего не придется.
+                            </div>
+                        </div>
+                        <!-- END faq__item -->
+                        <!-- faq__item -->
+                        <div class="faq__item" data-faq-item>
+                            <div class="faq__item__header" data-faq-item-header>
+                                <div class="faq__item__header__title">Как записаться на приём?</div>
+                                <img src="img/faq_arrow.svg" alt="" class="faq__item__header__icon">
+                            </div>
+                            <div class="faq__item__content" data-faq-item-content>
+                                Обучение будет доступно сразу после оплаты, ждать ничего не придется.
+                            </div>
+                        </div>
+                        <!-- END faq__item -->
+                        <!-- faq__item -->
+                        <div class="faq__item" data-faq-item>
+                            <div class="faq__item__header" data-faq-item-header>
+                                <div class="faq__item__header__title">Как записаться на приём?</div>
+                                <img src="img/faq_arrow.svg" alt="" class="faq__item__header__icon">
+                            </div>
+                            <div class="faq__item__content" data-faq-item-content>
+                                Обучение будет доступно сразу после оплаты, ждать ничего не придется.
+                            </div>
+                        </div>
+                        <!-- END faq__item -->
+                        <!-- faq__item -->
+                        <div class="faq__item" data-faq-item>
+                            <div class="faq__item__header" data-faq-item-header>
+                                <div class="faq__item__header__title">Как записаться на приём?</div>
+                                <img src="img/faq_arrow.svg" alt="" class="faq__item__header__icon">
+                            </div>
+                            <div class="faq__item__content" data-faq-item-content>
+                                Обучение будет доступно сразу после оплаты, ждать ничего не придется.
+                            </div>
+                        </div>
+                        <!-- END faq__item -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ============================================================================ -->
+        <!-- ================================== faq ===================================== -->
         <!-- ============================================================================ -->
     </div>
     
