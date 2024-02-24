@@ -29,6 +29,60 @@ body {
     padding-right: 20rem;
     margin: 0 auto;
 }
+
+.sec__title {
+    font-size: 54rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    background: linear-gradient(130.82deg, #7E7E7E 27.77%, #3F3F3F 64.15%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+.sec__desc {
+    text-align: center;
+    font-size: 24rem;
+    color: #7A7A7A;
+    margin-top: 14rem;
+}
+
+.btn {
+    height: 74rem;
+    padding-left: 40rem;
+    padding-right: 40rem;
+    font-size: 20rem;
+    font-weight: 400;
+    font-family: 'TT Norms';
+    background: linear-gradient(180deg, #E5A8BE 0%, #D07A8A 100%),
+    linear-gradient(93.84deg, rgba(255, 255, 255, 0) 46.85%, rgba(255, 255, 255, 0.14375) 66.03%, rgba(255, 255, 255, 0) 83.68%);
+    border: none;
+    border-radius: 10rem;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: max-content;
+    box-shadow: 0px 4rem 0rem 0rem rgba(188, 103, 134, 1),  
+                0px 15rem 42rem -30rem rgba(167, 120, 120, 0.5), 
+                15rem 14rem 22rem 0rem rgba(255, 255, 255, 0.29) inset;
+
+}
+.btn:active {
+    transform: translateY(4rem);
+    box-shadow: 0px 0rem 0rem 0rem rgba(188, 103, 134, 1),  
+    0px 15rem 42rem -30rem rgba(167, 120, 120, 0.5), 
+    15rem 14rem 22rem 0rem rgba(255, 255, 255, 0.29) inset;
+}
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
+/* =============================== hero ======================================= */
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
 .hero {
     background-repeat: no-repeat;
     background-position: center;
@@ -185,24 +239,6 @@ body {
     line-height: 140%;
 }
 
-.btn {
-    height: 74rem;
-    padding-left: 40rem;
-    padding-right: 40rem;
-    font-size: 20rem;
-    font-weight: 400;
-    font-family: 'TT Norms';
-    background: linear-gradient(180deg, #E5A8BE 0%, #D07A8A 100%),
-    linear-gradient(93.84deg, rgba(255, 255, 255, 0) 46.85%, rgba(255, 255, 255, 0.14375) 66.03%, rgba(255, 255, 255, 0) 83.68%);
-    border: none;
-    border-radius: 10rem;
-    color: white;
-    cursor: pointer;
-    box-shadow: 0px 4px 0px 0px rgba(188, 103, 134, 1),  
-                0px 15px 42px -30px rgba(167, 120, 120, 0.5), 
-                15px 14px 22px 0px rgba(255, 255, 255, 0.29) inset;
-
-}
 .hero__main__btn {
     margin-top: 40rem;
 }
@@ -214,23 +250,21 @@ body {
     width: 444rem;
     height: 765rem;
 }
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
+/* =========================== END hero ======================================= */
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
 
-.sec__title {
-    font-size: 54rem;
-    font-weight: 400;
-    text-transform: uppercase;
-    background: linear-gradient(130.82deg, #7E7E7E 27.77%, #3F3F3F 64.15%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: center;
-}
-.sec__desc {
-    text-align: center;
-    font-size: 24rem;
-    color: #7A7A7A;
-    margin-top: 14rem;
-}
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================- preims ======================================= */
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
 
 .preims {
     margin-top: 46rem;
@@ -286,8 +320,22 @@ body {
     font-size: 14rem;
     margin-top: 20rem;
 }
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
+/* ========================= END preims ======================================= */
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
 
 
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================== works ======================================= */
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
 
 
 .works {
@@ -311,8 +359,21 @@ body {
 .works__item:nth-child(1) {
     grid-row: span 2;
 }
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
+/* ========================= END works ======================================= */
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
 
-
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================= materials ==================================== */
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
 .materials {
     padding-top: 57rem;
     padding-bottom: 95rem;
@@ -360,35 +421,35 @@ body {
 }
 .materials__slider {
 }
-.materials__slider button.owl-prev {
+.materials__slider .owl-stage {
+    display: flex;
+    align-items: stretch;
+}
+
+.materials__slider .owl-nav button {
     position: absolute;
+    transform: translateY(-50%);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4rem 0rem 0rem rgba(188, 103, 134, 1);
+}
+.materials__slider .owl-nav button:active {
+    transform: translateY(-50%) translateY(4rem);
+    box-shadow: none;
+}
+.materials__slider .owl-nav button img {
+    width: 71rem;
+    height: 71rem;
+}
+.materials__slider .owl-nav button.owl-prev {
     left: -50rem;
     top: 50%;
-    transform: translateY(-50%);
-    border-radius: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0px 15px 42px -30px #BC678680;
 }
-.materials__slider button.owl-prev img {
-    width: 71rem;
-    height: 75rem;
-}
-.materials__slider button.owl-next {
-    position: absolute;
+.materials__slider .owl-nav button.owl-next {
     right: -50rem;
     top: 50%;
-    transform: translateY(-50%);
-    border-radius: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0px 15px 42px -30px #BC678680;
-}
-.materials__slider button.owl-next img {
-    width: 71rem;
-    height: 75rem;
 }
 .materials__slider__item {
     background-color: #fff;
@@ -402,7 +463,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    border-radius: 30rem;
+    border-radius: 20rem;
 }
 .materials__slider__item__title {
     font-size: 30rem;
@@ -447,6 +508,7 @@ body {
     position: relative;
 }
 
+
 .parallax .parallax__scene {
     position: absolute;
     z-index: 2;
@@ -468,11 +530,35 @@ body {
     width: 287rem;
     height: 258rem;
 }
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
+/* ========================= END materials ==================================== */
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
 
-
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================== services ==================================== */
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
 
 .services {
     padding-top: 58rem;
+    padding-bottom: 8rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.services__tab_links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 47rem;
 }
 
 .services__tab_link__wrapper {
@@ -484,12 +570,56 @@ body {
     justify-content: center;
     width: max-content;
     border-radius: 10rem;
-    
+    margin: 0 15rem;
+}
+.services__tab_link__wrapper:hover {
+    box-shadow: 15px 14px 22px 0px #FFFFFF4A inset, 
+                0px 15px 42px -30px #BC678680,
+                0px 4px 0px 0px #BC6786;
+    /* box-shadow: 0px 15px 42px -30px #BC678680;
+    box-shadow: 0px 4px 0px 0px #BC6786; */
+    padding: 0;
+}
+.services__tab_link__wrapper:hover .services__tab_link {
+    background: linear-gradient(180deg, #E5A8BE 0%, #D07A8A 100%),
+    linear-gradient(93.84deg, rgba(255, 255, 255, 0) 46.85%, rgba(255, 255, 255, 0.14375) 66.03%, rgba(255, 255, 255, 0) 83.68%);
+    padding-left: 42rem;
+    padding-right: 42rem;
+    /* height: 80rem; */
+}
+.services__tab_link__wrapper:hover .services__tab_link__title {
+    color: white;
+}
+.services__tab_link__wrapper:hover svg path {
+    fill: #ffffff;
+
+}
+.services__tab_link__wrapper.active {
+    box-shadow: 15px 14px 22px 0px #FFFFFF4A inset, 
+                0px 15px 42px -30px #BC678680,
+                0px 4px 0px 0px #BC6786;
+    /* box-shadow: 0px 15px 42px -30px #BC678680;
+    box-shadow: 0px 4px 0px 0px #BC6786; */
+    padding: 0;
+}
+.services__tab_link__wrapper.active .services__tab_link {
+    background: linear-gradient(180deg, #E5A8BE 0%, #D07A8A 100%),
+    linear-gradient(93.84deg, rgba(255, 255, 255, 0) 46.85%, rgba(255, 255, 255, 0.14375) 66.03%, rgba(255, 255, 255, 0) 83.68%);
+    padding-left: 42rem;
+    padding-right: 42rem;
+    /* height: 80rem; */
+}
+.services__tab_link__wrapper.active .services__tab_link__title {
+    color: white;
+}
+.services__tab_link__wrapper.active svg path {
+    fill: #ffffff;
+
 }
 .services__tab_link {
     display: flex;
     align-items: center;
-    height: 88rem;
+    height: 84rem;
     padding-left: 40rem;
     padding-right: 40rem;
     background-color: #fff;
@@ -499,4 +629,151 @@ body {
 }
 .services__tab_link__title {
     margin-left: 10rem;
+    color: #D48593;
+    font-size: 24rem;
+    font-weight: 500;
 }
+
+
+.services__tab_contents {
+    margin-top: 71rem;
+}
+
+.services__tab_content__slider .owl-stage {
+    display: flex;
+    align-items: stretch;
+}
+
+
+.services__tab_content__slider__item {
+    background-color: #fff;
+    padding: 40rem 30rem;
+    border-radius: 30rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.services__tab_content__slider__item__title {
+    font-size: 28rem;
+    font-weight: 500;
+    line-height: 34rem;
+    color: #373737;
+}
+.services__tab_content__slider__item__pricetime {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 13rem;
+}
+.services__tab_content__slider__item__price {
+    background: linear-gradient(0deg, #D48593, #D48593),
+    linear-gradient(180deg, #E5A8BE 0%, #D07A8A 100%),
+    linear-gradient(93.84deg, rgba(255, 255, 255, 0) 46.85%, rgba(255, 255, 255, 0.14375) 66.03%, rgba(255, 255, 255, 0) 83.68%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48rem;
+    font-weight: 500;
+    line-height: 58rem;
+}
+.services__tab_content__slider__item__time {
+    height: 50rem;
+    background-color: #ECECEC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10rem;
+    padding-right: 22rem;
+    padding-left: 67rem;
+    margin-left: 24rem;
+    position: relative;
+}
+.services__tab_content__slider__item__time__img {
+    position: absolute;
+    left: 10rem;
+    bottom: 0;
+    width: 53rem;
+    max-width: 53rem;
+    height: 56rem;
+}
+.services__tab_content__slider__item__list {
+    list-style-type: none;
+    padding-left: 26rem;
+    margin-top: 20rem;
+}
+.services__tab_content__slider__item__list li {
+    position: relative;
+    font-size: 16rem;
+    font-weight: 300;
+    line-height: 21rem;
+    margin-bottom: 10rem;
+}
+.services__tab_content__slider__item__list li:last-child {
+    margin-bottom: 0;
+}
+.services__tab_content__slider__item__list li svg {
+    position: absolute;
+    left: -26rem;
+    top: 4rem;
+}
+.services__tab_content__slider__item__list li::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -26rem;
+    top: 4rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 15rem;
+    height: 12.87rem;
+    background-image: url(../img/list.svg);
+}
+.services__tab_content__slider__item__desc {
+    font-family: Montserrat;
+    font-size: 14rem;
+    font-weight: 300;
+    line-height: 18rem;
+    margin-top: 19rem;
+    margin-bottom: 22rem;
+}
+.services__tab_content__slider__item__btn {
+    margin-top: auto;
+}
+
+
+
+.services__tab_content__slider .owl-nav button {
+    position: absolute;
+    transform: translateY(-50%);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4rem 0rem 0rem rgba(188, 103, 134, 1);
+}
+.services__tab_content__slider .owl-nav button:active {
+    transform: translateY(-50%) translateY(4rem);
+    box-shadow: none;
+}
+.services__tab_content__slider .owl-nav button img {
+    width: 71rem;
+    height: 71rem;
+}
+.services__tab_content__slider .owl-nav button.owl-prev {
+    left: -50rem;
+    top: 50%;
+}
+.services__tab_content__slider .owl-nav button.owl-next {
+    right: -50rem;
+    top: 50%;
+}
+
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
+/* ========================== END services ==================================== */
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */

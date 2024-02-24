@@ -27,4 +27,26 @@ $(document).ready(function(){
         }
     });
 
+    $('.services__tab_content__slider').owlCarousel({
+        items: 3,
+        margin: 30,
+        nav: true,
+        dots: true,
+        navText: ["<img src='/img/arrow-left.svg'>","<img src='/img/arrow-right.svg' >"],
+        dotsContainer: ".materials__slider__dots",
+        responsive: {
+            0: {
+                items: 1,
+                nav: false,
+            },
+            500: {
+                items: 2,
+                nav: true,
+            },
+            700: {
+                items: 3,
+            }
+        }
+    });
+
 });
