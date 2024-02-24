@@ -573,9 +573,9 @@ body {
     margin: 0 15rem;
 }
 .services__tab_link__wrapper:hover {
-    box-shadow: 15px 14px 22px 0px #FFFFFF4A inset, 
-                0px 15px 42px -30px #BC678680,
-                0px 4px 0px 0px #BC6786;
+    box-shadow: 15rem 14rem 22rem 0rem #FFFFFF4A inset, 
+                0rem 15rem 42rem -30rem #BC678680,
+                0rem 4rem 0rem 0rem #BC6786;
     /* box-shadow: 0px 15px 42px -30px #BC678680;
     box-shadow: 0px 4px 0px 0px #BC6786; */
     padding: 0;
@@ -595,9 +595,9 @@ body {
 
 }
 .services__tab_link__wrapper.active {
-    box-shadow: 15px 14px 22px 0px #FFFFFF4A inset, 
-                0px 15px 42px -30px #BC678680,
-                0px 4px 0px 0px #BC6786;
+    box-shadow: 15rem 14rem 22rem 0rem #FFFFFF4A inset, 
+    0rem 15rem 42rem -30rem #BC678680,
+    0rem 4rem 0rem 0rem #BC6786;
     /* box-shadow: 0px 15px 42px -30px #BC678680;
     box-shadow: 0px 4px 0px 0px #BC6786; */
     padding: 0;
