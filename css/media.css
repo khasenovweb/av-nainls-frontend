@@ -133,6 +133,9 @@
     .works__item:nth-child(1) {
         grid-row: span 1;
     }
+    .materials {
+        padding-bottom: 41rem;
+    }
     .materials__left {
         width: 100%;
         min-width: 100%;
@@ -206,6 +209,9 @@
         width: 123rem;
         height: 111rem;
     }
+    .services {
+        padding-top: 41rem;
+    }
     .services__tab_link__wrapper {
         margin: 0 6rem;
     }
@@ -214,6 +220,10 @@
         padding-right: 14rem;
         padding-left: 14rem;
 
+    }
+    .services__tab_link__wrapper:hover .services__tab_link {
+        padding-right: 14rem;
+        padding-left: 14rem;
     }
     .services__tab_link svg {
         height: 18rem;
@@ -227,6 +237,28 @@
     }
     .services__tab_contents {
         margin-top: 21rem;
+    }
+    .services__tab_content__slider__item__title {
+        font-size: 20rem;
+        line-height: 24rem;
+    }
+    .services__tab_content__slider__item {
+        padding: 30rem;
+    }
+    .services__tab_content__slider__item__price {
+        font-size: 36rem;
+    }
+
+    .services__tab_content__slider__item__time__img {
+        width: 45rem;
+        max-width: 45rem;
+        height: 48rem;
+        left: 0;
+    }
+    .services__tab_content__slider__item__time {
+        padding-left: 55rem;
+        padding-right: 15rem;
+        font-size: 14rem;
     }
 
 }

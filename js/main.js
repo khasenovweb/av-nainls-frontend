@@ -33,7 +33,7 @@ $(document).ready(function(){
         nav: true,
         dots: true,
         navText: ["<img src='/img/arrow-left.svg'>","<img src='/img/arrow-right.svg' >"],
-        dotsContainer: ".materials__slider__dots",
+        dotsContainer: ".services__tab_content__slider__dots",
         responsive: {
             0: {
                 items: 1,

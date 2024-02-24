@@ -554,11 +554,19 @@ body {
     background-size: cover;
 }
 
+.services__tab_links__wrapper {
+    overflow-x: auto;
+}
+.services__tab_links__wrapper::-webkit-scrollbar {
+    width: 0;
+  }
 .services__tab_links {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 47rem;
+    width: max-content;
+    min-width: 100%;
 }
 
 .services__tab_link__wrapper {
@@ -576,16 +584,15 @@ body {
     box-shadow: 15rem 14rem 22rem 0rem #FFFFFF4A inset, 
                 0rem 15rem 42rem -30rem #BC678680,
                 0rem 4rem 0rem 0rem #BC6786;
-    /* box-shadow: 0px 15px 42px -30px #BC678680;
-    box-shadow: 0px 4px 0px 0px #BC6786; */
     padding: 0;
+    transform: translateY(-2rem);
 }
 .services__tab_link__wrapper:hover .services__tab_link {
     background: linear-gradient(180deg, #E5A8BE 0%, #D07A8A 100%),
     linear-gradient(93.84deg, rgba(255, 255, 255, 0) 46.85%, rgba(255, 255, 255, 0.14375) 66.03%, rgba(255, 255, 255, 0) 83.68%);
     padding-left: 42rem;
     padding-right: 42rem;
-    /* height: 80rem; */
+    /* height: 88rem; */
 }
 .services__tab_link__wrapper:hover .services__tab_link__title {
     color: white;
@@ -598,8 +605,6 @@ body {
     box-shadow: 15rem 14rem 22rem 0rem #FFFFFF4A inset, 
     0rem 15rem 42rem -30rem #BC678680,
     0rem 4rem 0rem 0rem #BC6786;
-    /* box-shadow: 0px 15px 42px -30px #BC678680;
-    box-shadow: 0px 4px 0px 0px #BC6786; */
     padding: 0;
 }
 .services__tab_link__wrapper.active .services__tab_link {
@@ -607,7 +612,7 @@ body {
     linear-gradient(93.84deg, rgba(255, 255, 255, 0) 46.85%, rgba(255, 255, 255, 0.14375) 66.03%, rgba(255, 255, 255, 0) 83.68%);
     padding-left: 42rem;
     padding-right: 42rem;
-    /* height: 80rem; */
+    height: 80rem;
 }
 .services__tab_link__wrapper.active .services__tab_link__title {
     color: white;
@@ -768,6 +773,25 @@ body {
 .services__tab_content__slider .owl-nav button.owl-next {
     right: -50rem;
     top: 50%;
+}
+.services__tab_content__slider__dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 37rem;
+}
+
+.services__tab_content__slider__dots button.owl-dot {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 100%;
+    background-color: #D9D9D9;
+    border: none;
+    cursor: pointer;
+    margin: 0 3.5rem;
+}
+.services__tab_content__slider__dots button.owl-dot.active {
+    background-color: #E3ABB8;
 }
 
 /* ============================================================================ */
