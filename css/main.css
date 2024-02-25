@@ -73,6 +73,25 @@ body {
                 15rem 14rem 22rem 0rem rgba(255, 255, 255, 0.29) inset;
 
 }
+
+.btn.green {
+    background: linear-gradient(180deg, #A9E5A8 0%, #7AD083 100%),
+    linear-gradient(93.84deg, rgba(255, 255, 255, 0) 46.85%, rgba(255, 255, 255, 0.14375) 66.03%, rgba(255, 255, 255, 0) 83.68%);
+    box-shadow: 15px 14px 22px 0px #FFFFFF4A inset,
+                0px 15px 42px -30px #7FA77880,
+                0px 4px 0px 0px #67BC7A;
+}
+.btn.red {
+    background: linear-gradient(180deg, #E88080 0%, #D05656 100%),
+    linear-gradient(93.84deg, rgba(255, 255, 255, 0) 46.85%, rgba(255, 255, 255, 0.14375) 66.03%, rgba(255, 255, 255, 0) 83.68%);
+    box-shadow: 15px 14px 22px 0px #FFFFFF4A inset,
+                0px 15px 42px -30px #A6393980,
+                0px 4px 0px 0px #C14F4F;
+}
+.btn.svg_right svg {
+    margin-left: 10rem;
+}
+
 .btn:active {
     transform: translateY(4rem);
     box-shadow: 0px 0rem 0rem 0rem rgba(188, 103, 134, 1),  
@@ -1035,6 +1054,130 @@ body {
 .faq__content .parallax:nth-child(1) .parallax__scene:nth-child(2) .parallax__img:nth-child(1){
     width: 277rem;
     height: 353rem;
+}
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
+/* =============================== END faq ==================================== */
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
+
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
+/* =================================== faq ==================================== */
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
+.reviews {
+    padding-top: 58rem;
+}
+.reviews__slider {
+    margin-top: 68rem;
+}
+.reviews__slider__item {
+    background-color: #fff;
+    border-radius: 20rem;
+    padding: 20rem;
+}
+.reviews__slider__item__header {
+    display: flex;
+    align-items: center;
+}
+.reviews__slider__item__header__avatar {
+    min-width: 40rem;
+    width: 40rem;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16rem;
+    color: white;
+    background-color: #b37db3;
+    border-radius: 100%;
+}
+.reviews__slider__item__header__text {
+    padding-left: 15rem;
+}
+.reviews__slider__item__header__title {
+    font-size: 16rem;
+    font-weight: 500;
+}
+.reviews__slider__item__header__subtitle {
+    font-size: 14rem;
+    color: #878787;
+    margin-top: 3rem;
+}
+.reviews__slider__item__ratingblock {
+    margin-top: 16rem;
+}
+.reviews__slider__item__ratingblock__desc {
+    font-size: 14rem;
+    color: #878787;
+    margin-left: 10rem;
+}
+.reviews__slider__item__text {
+    margin-top: 8rem;
+    font-size: 14rem;
+}
+.reviews__slider__wrapper {
+    padding-left: 86rem;
+    padding-right: 86rem;
+}
+.reviews__slider .owl-nav button {
+    position: absolute;
+    /* transform: translateY(-50%); */
+    margin-top: -35rem;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4rem 0rem 0rem rgba(188, 103, 134, 1);
+}
+.reviews__slider .owl-nav button:active {
+    transform: translateY(4rem);
+    box-shadow: none;
+}
+.reviews__slider .owl-nav button img {
+    width: 71rem;
+    height: 71rem;
+}
+.reviews__slider .owl-nav button.owl-prev {
+    left: -100rem;
+    top: 50%;
+}
+.reviews__slider .owl-nav button.owl-next {
+    right: -100rem;
+    top: 50%;
+}
+.reviews__slider .owl-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 37rem;
+}
+
+.reviews__slider .owl-dots button.owl-dot {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 100%;
+    background-color: #D9D9D9;
+    border: none;
+    cursor: pointer;
+    margin: 0 3.5rem;
+}
+.reviews__slider .owl-dots button.owl-dot.active {
+    background-color: #E3ABB8;
+}
+.reviews__btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 38rem;
+}
+.reviews__btns .btn {
+    margin: 0 15rem;
 }
 /* ============================================================================ */
 /* ============================================================================ */

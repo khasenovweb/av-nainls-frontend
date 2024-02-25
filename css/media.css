@@ -366,5 +366,48 @@
         width: 99rem;
         height: 126rem;
     }
+    .faq__items {
+        margin-top: 29rem;
+    }
+
+
+    .reviews__slider__wrapper {
+        padding-left: 25rem;
+        padding-right: 25rem;
+    }
+    .reviews__slider .owl-nav button {
+        box-shadow: 0px 2rem 0rem 0rem rgba(188, 103, 134, 1);
+    }
+    .reviews__slider .owl-nav button img {
+        width: 34rem;
+        height: 34rem;
+    }
+    .reviews__slider .owl-nav button.owl-prev {
+        left: -34rem;
+    }
+    .reviews__slider .owl-nav button.owl-next {
+        right: -34rem;
+    }
+    .reviews__slider .owl-nav button:active  {
+        transform: translateY(2rem);
+        box-shadow: none;
+    } 
+    .reviews__btns {
+        flex-direction: column;
+    }
+    .reviews__btns .btn {
+        font-size: 14rem;
+        padding-left: 20rem;
+        padding-right: 20rem;
+        height: 53rem;
+        margin-bottom: 15rem;
+    }
+    .reviews__btns .btn svg {
+        height: 16rem;
+        width: auto;
+    }
+    .reviews__slider {
+        margin-top: 55rem;
+    }
 
 }

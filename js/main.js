@@ -49,6 +49,28 @@ $(document).ready(function(){
         }
     });
 
+    $('.reviews__slider').owlCarousel({
+        items: 3,
+        margin: 20,
+        nav: true,
+        dots: true,
+        navText: ["<img src='/img/arrow-left.svg'>","<img src='/img/arrow-right.svg' >"],
+        // dotsContainer: ".services__tab_content__slider__dots",
+        responsive: {
+            0: {
+                items: 1,
+                // nav: true,
+            },
+            500: {
+                items: 2,
+                // nav: true,
+            },
+            700: {
+                items: 3,
+            }
+        }
+    });
+
 
     $('[data-tab-link="1"]').addClass('active');
     $('[data-tab-content]').hide();
