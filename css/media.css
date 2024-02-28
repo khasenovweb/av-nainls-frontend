@@ -238,6 +238,7 @@
     }
     .services__tab_links {
         margin-top: 18rem;
+        height: 50rem;
     }
     .services__tab_contents {
         margin-top: 21rem;
@@ -450,6 +451,62 @@
     .promotions__content .parallax:nth-child(1) .parallax__scene:nth-child(1) .parallax__img:nth-child(1){
         width: 337rem;
         height: 428rem;
+    }
+
+
+
+    .contacts {
+        padding-top: 26rem;
+    }
+    .contacts__content__left {
+        height: 600rem;
+        order: 2;
+    }
+    .contacts__content__phone {
+        font-size: 20rem;
+        margin-top: 15rem;
+    }
+    .contacts__content__adress {
+        font-size: 16rem;
+    }
+    .contacts__content__text {
+        font-size: 16rem;
+        line-height: 21rem;
+        margin-top: 20rem;
+    }
+    .contacts__content {
+        grid-template-columns: 1fr;
+        grid-gap: 27rem;
+    }
+    .contacts__content__right {
+        padding: 0;
+        order: 1;
+    }
+    .footer__navbar {
+        flex-direction: column;
+    }
+    .footer__navbar .hero__navbar__contacts {
+        flex-direction: column;
+    }
+    .footer__navbar .hero__navbar__contacts__item {
+        margin-right: 0;
+    }
+    .footer__navbar .hero__navbar__contacts__item:nth-child(1), 
+    .footer__navbar .hero__navbar__contacts__item:nth-child(2),
+    .footer__navbar .hero__navbar__contacts__item:nth-child(3) {
+        display: flex;
+    }
+    .footer__navbar .hero__navbar__contacts__item {
+        margin-bottom: 20rem;
+    }
+    .footer__navbar .hero__navbar__contacts {
+        margin-top: 20rem;
+    }
+    .footer__bottom {
+        flex-direction: column;
+    }
+    .footer__bottom__copyright {
+        text-align: center;
     }
 
 }
