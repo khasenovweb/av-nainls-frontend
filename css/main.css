@@ -271,6 +271,7 @@ body {
     font-weight: 300;
     margin-top: 30rem;
     line-height: 140%;
+    position: relative;
 }
 
 .hero__main__btn {
