@@ -796,14 +796,16 @@
                     <h2 class="sec__title">Ответы на вопросы</h2>
                     <div class="faq__items">
                         <!-- faq__item -->
-                        <div class="faq__item" data-faq-item>
+                        <div class="faq__item" data-faq-item itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
                             <div class="faq__item__header" data-faq-item-header>
-                                <h3 class="faq__item__header__title">Зачем делать маникюр?</h3>
+                                <h3 class="faq__item__header__title" itemprop="name">Зачем делать маникюр?</h3>
                                 <img src="img/faq_arrow.svg" alt="" class="faq__item__header__icon">
                             </div>
-                            <p class="faq__item__content" data-faq-item-content>
-                                Он поможет оживить, укрепить и защитить ваши ногти. Они будут менее склонны к поломке, обесцвечиванию и другим неприятностям. А еще, ухоженные ногти привлекательны, что производит приятное впечатление.
-                            </p>
+                            <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+                                <p class="faq__item__content" data-faq-item-content>
+                                    Он поможет оживить, укрепить и защитить ваши ногти. Они будут менее склонны к поломке, обесцвечиванию и другим неприятностям. А еще, ухоженные ногти привлекательны, что производит приятное впечатление.
+                                </p>
+                            </div>
                         </div>
                         <div class="faq__item" data-faq-item>
                             <div class="faq__item__header" data-faq-item-header>
