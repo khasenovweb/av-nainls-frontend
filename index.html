@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/main.css?v=2">
+    <link rel="stylesheet" href="css/cookie_alert.css?v=2">
     <link rel="stylesheet" href="css/media.css">
     <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
     <link rel="canonical" href="https://av-nails.ru/">
@@ -49,7 +50,7 @@
         <section class="hero" style="background-image: url(img/hero_bg.png);">
             <div class="hero__navbar">
                 <div class="container">
-                    <a href="" class="hero__navbar__logo">
+                    <a href="/" class="hero__navbar__logo">
                         <!-- <svg width="161" height="40" viewBox="0 0 161 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M105.451 15.0722V30.0045H103.773L95.1746 18.8693V30.0045H93.1274V15.0722H94.8061L103.404 26.2074V15.0722H105.451Z" fill="#252525"/>
                             <path d="M120.918 26.2714H113.303L111.726 30.0045H109.618L116.107 15.0722H118.134L124.644 30.0045H122.495L120.918 26.2714ZM120.202 24.5649L117.111 17.2481L114.019 24.5649H120.202Z" fill="#252525"/>
@@ -1453,7 +1454,7 @@
                     </div>
                     <div class="footer__bottom">
                         <div class="footer__bottom__copyright">© 2024 Сеть салонов маникюра и педикюра «Av nails»</div>
-                        <a href="" class="footer__bottom__politics">Политика конфинденцальности</a>
+                        <a href="/policy/" class="footer__bottom__politics">Политика конфинденцальности</a>
                     </div>
                 </div>
             </div>
@@ -1461,6 +1462,13 @@
         <!-- ============================================================================ -->
         <!-- =========================== END footer ===================================== -->
         <!-- ============================================================================ -->
+
+        <section class="cookie_alert" data-cookie-alert style="display: none;">
+            <div class="cookie_alert__text">
+                Мы используем файлы cookie, чтобы улучшить работу сайта
+            </div>
+            <button class="btn" data-cookie-alert-btn>Согласен</button>
+        </section>
     </div>
     
 
@@ -1472,5 +1480,6 @@
     <script src="js/parallax.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/check_cookie_alert.js"></script>
 </body>
 </html>

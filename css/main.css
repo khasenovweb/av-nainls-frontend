@@ -1425,3 +1425,98 @@ body {
 /* ============================================================================ */
 /* ============================================================================ */
 /* ============================================================================ */
+
+
+
+
+
+
+.editor h1 {
+    font-weight: 800;
+    font-size: 56rem;
+    margin-bottom: 30rem;
+    line-height: 130%;
+}
+.editor h2 {
+    font-weight: 700;
+    font-size: 36rem;
+    margin-bottom: 30rem;
+    line-height: 130%;
+}
+.editor h3 {
+    font-weight: 700;
+    font-size: 26rem;
+    margin-bottom: 30rem;
+    line-height: 130%;
+}
+.editor h4 {
+    font-weight: 700;
+    font-size: 20rem;
+    margin-bottom: 30rem;
+    line-height: 130%;
+}
+.editor h5 {
+    font-weight: 700;
+    font-size: 18rem;
+    margin-bottom: 30rem;
+    line-height: 130%;
+}
+.editor h6 {
+    font-weight: 500;
+    font-size: 16rem;
+    margin-bottom: 30rem;
+    line-height: 130%;
+}
+.editor p {
+    margin-bottom: 20rem;
+    line-height: 150%;
+}
+.editor ul {
+    overflow: hidden;
+    margin-bottom: 20rem;
+}
+.editor ul li {
+    position: relative;
+    padding-left: 20rem;
+    margin-bottom: 10rem;
+}
+.editor ul li:last-child {
+    margin-bottom: 0;
+}
+.editor ul li:before {
+    content: "";
+    display: block;
+    width: 8rem;
+    min-width: 8rem;
+    height: 8rem;
+    background: radial-gradient(47.41% 82.95% at 51.46% -4.55%, rgba(255, 255, 255, 0.4) 0, rgba(255, 255, 255, 0.4) 0.01%, rgba(255, 255, 255, 0) 100%), #D07A8A;
+    border-radius: 100%;
+    position: absolute;
+    left: 0;
+    top: 8rem;
+}
+.editor ol {
+    overflow: hidden;
+    counter-reset: li;
+    margin-bottom: 20rem;
+}
+.editor ol li {
+    color: #141414;
+    position: relative;
+    line-height: 160%;
+    padding-left: 20rem;
+    margin-bottom: 10rem;
+}
+.editor ol li:last-child {
+    margin-bottom: 0;
+}
+.editor ol li:before {
+    content: counter(li);
+    counter-increment: li;
+    color: #D07A8A;
+    font-weight: 700;
+    margin-right: 0.5rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+}

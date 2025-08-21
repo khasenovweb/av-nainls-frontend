@@ -25,6 +25,9 @@
     html {
         font-size: 1px;
     }
+    .cookie_alert {
+        width: 90%;
+    }
     .hero__navbar__mobile.active {
         transform: translateY(0);
     }

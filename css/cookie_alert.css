@@ -1,0 +1,26 @@
+.cookie_alert {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10rem;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    z-index: 99999;
+    padding: 20rem;
+    border-radius: 30rem;
+    max-width: 450rem;
+    box-shadow: 0 .5rem 2rem -.25rem hsla(216, 9%, 44%, .1);
+}
+
+.cookie_alert .btn {
+    height: 40rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    font-size: 16rem;
+    margin-left: 20rem;
+}
+.cookie_alert__text {
+    font-size: 14rem;
+    color: #373737;
+}
