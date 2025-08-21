@@ -39,6 +39,7 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
+    overflow-wrap: break-word;
 }
 .sec__title.left {
     text-align: left;
@@ -1430,39 +1431,42 @@ body {
 
 
 
+.editor {
+    color: #303030;
+}
 
 .editor h1 {
-    font-weight: 800;
+    font-weight: 400;
     font-size: 56rem;
     margin-bottom: 30rem;
     line-height: 130%;
 }
 .editor h2 {
-    font-weight: 700;
+    font-weight: 400;
     font-size: 36rem;
     margin-bottom: 30rem;
     line-height: 130%;
 }
 .editor h3 {
-    font-weight: 700;
+    font-weight: 400;
     font-size: 26rem;
     margin-bottom: 30rem;
     line-height: 130%;
 }
 .editor h4 {
-    font-weight: 700;
+    font-weight: 400;
     font-size: 20rem;
     margin-bottom: 30rem;
     line-height: 130%;
 }
 .editor h5 {
-    font-weight: 700;
+    font-weight: 400;
     font-size: 18rem;
     margin-bottom: 30rem;
     line-height: 130%;
 }
 .editor h6 {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16rem;
     margin-bottom: 30rem;
     line-height: 130%;
