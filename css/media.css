@@ -91,6 +91,9 @@
         margin-top: 10rem;
         padding-right: 100rem;
     }
+    .hero__main__yandex_rating {
+        margin-top: 28rem;
+    }
     .hero__main__btn {
         margin-top: 28rem;
     }
@@ -302,7 +305,7 @@
     }
     .about__content__img {
         width: 100%;
-        padding-bottom: 100%;
+        /* padding-bottom: 100%; */
     }
     .about__content__text {
         padding: 15rem;
@@ -510,6 +513,11 @@
     }
     .footer__bottom__copyright {
         text-align: center;
+    }
+
+    .about__slider .owl-nav button img {
+        width: 34rem;
+        height: 34rem;
     }
 
 }

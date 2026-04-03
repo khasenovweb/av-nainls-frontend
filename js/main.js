@@ -49,12 +49,24 @@ $(document).ready(function(){
         }
     });
 
+
+    $('.about__slider').owlCarousel({
+        items: 1,
+        nav: true,
+        dots: true,
+        navText: ["<img src='/img/arrow-left.svg'>","<img src='/img/arrow-right.svg' >"],
+        autoHeight:true,
+        dotsContainer: ".about__slider__dots",
+    });
+
+
     $('.reviews__slider').owlCarousel({
         items: 3,
         margin: 20,
         nav: true,
         dots: true,
         navText: ["<img src='/img/arrow-left.svg'>","<img src='/img/arrow-right.svg' >"],
+        autoHeight:true,
         // dotsContainer: ".services__tab_content__slider__dots",
         responsive: {
             0: {
